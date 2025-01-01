@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 8080;
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
-  database: "laviflix",
-  password: "lavi8454",
+  database: "YOUR DATABASE",
+  password: "YOUR PASSWORD",
   port: 5432,
 });
 
